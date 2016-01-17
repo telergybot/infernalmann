@@ -60,7 +60,7 @@ local function description_rules(msg, nama)
       end
       local sambutan = "You are in group '"..string.gsub(msg.to.print_name, "_", " ").."'\n"
       local text = sambutan..about..rules.."\n"
-      local text = text.."You Can use /InfernalTG for bot about "..nama
+      local text = text.."به گروه خوش اومدی  گروه ضد اسپمه از دادن اسپم خودداری کن چون بی فایدست "..nama
       local receiver = get_receiver(msg)
       send_large_msg(receiver, text, ok_cb, false)
    end
